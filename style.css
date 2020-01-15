@@ -1,0 +1,139 @@
+body {
+  background-color: black;
+  text-color: white;
+}
+
+h1 {
+  font-family: 'PT Serif', serif;
+  color: white;
+}
+
+p, span {
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+}
+
+.screen {
+  height: 100%;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  background-color: red;
+  height: 50vh;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo > img {
+  height: 200px;
+}
+
+.logo > h1 {
+  text-align: center;
+  letter-spacing: 20px;
+  margin-top: -20px;
+  width: 100%;
+}
+
+.menu {
+  /* TODO: CENTER THIS JESUS */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu > p {
+  width: 25%;
+  flex: 0 0 100%;
+  margin: 10px;
+}
+
+.box {
+  margin: 10px;
+  outline: 3px solid #5f605a;
+  border-top: 4px solid #403f39;
+  border-radius: 2px;
+  padding: 10px;
+  background: #333;
+}
+
+.box-style-lg {
+  background: #403f39;
+background: -moz-linear-gradient(left, #403f39 0%, #5f605a 50%, #403f39 100%);
+background: -webkit-linear-gradient(left, #403f39 0%,#5f605a 50%,#403f39 100%);
+background: linear-gradient(to right, #403f39 0%,#5f605a 50%,#403f39 100%);
+}
+
+.box-style-sm {
+background: #403f39; /* Old browsers */
+background: -moz-linear-gradient(left,  #403f39 0%, #5f605a 97%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #403f39 0%,#5f605a 97%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #403f39 0%,#5f605a 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#403f39', endColorstr='#5f605a',GradientType=1 ); /* IE6-9 */
+}
+
+.saved-games {
+  width: 65%;
+}
+
+.savestate{
+  margin: 5% 1% 6%;
+}
+
+.game-state {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-between;
+}
+
+.save-id {
+  margin-left: -10px;
+  margin-top: -45px;
+  padding-right: 10px;
+}
+
+img.avatar {
+ max-width: 30%;
+ width: auto;
+ height: auto;
+ min-height: 120px;
+ max-height: 120px;
+}
+
+.game-data {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+.characters {
+  width: 40%;
+}
+
+.row.game-text {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.location {
+  border-radius: 3px;
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 10px;
+}

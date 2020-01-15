@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>title</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+  <div class="screen hidden" id="start">
+    <div class="header">
+      <div class="logo">
+        <img src="https://i.pinimg.com/originals/6b/06/1d/6b061d926c90cd8c75496f0980c0115d.png">
+      </div>
+    </div>
+    <div class="logo">
+      <h1>Final Fantasy VIII</h1>
+    </div>
+    <div class="menu">
+      <p class="disable">Continue</p>
+      <p>Load Game</p>
+    </div>
+  </div>
+  <div class="screen hidden" id="memory-card-select">
+    <div class="modal">
+    </div>
+  </div>
+  <div class="screen" id="load-games">
+    <div class="row">
+      <div class="game-info"></div>
+      <div class="load"></div>
+    </div>
+    <div class="row">
+      <div class="help"></div>
+    </div>
+    <div class="saved-games box-style-lg box">
+      <div class="row">
+        <div class="savestate" id="saveState1">
+          <div class="save-id">
+            <h1>01</h1>
+          </div>
+          <div class="characters">
+            <img class="avatar" src="https://jackfperryjr.github.io/moogleapi-images/ff-irvine-sample.jpg">
+            <img class="avatar" src="https://jackfperryjr.github.io/moogleapi-images/ff-irvine-sample.jpg">
+            <img class="avatar" src="https://jackfperryjr.github.io/moogleapi-images/ff-irvine-sample.jpg">
+          </div>
+          <div class="game-data">
+            <div class="row game-text">
+              <span>Character Name</span>
+              <span>PLAY: <b>10:56</b></span>
+            </div>
+            <div class="row game-text">
+              <span>LVL 12</span>
+              <span>DISC 1</span>
+              <span> 6000 G</span>
+            </div>
+            <div class="row">
+              <div class="location">
+                <p> DEHLING CITY</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="savestate" id="saveState2"></div>
+        <div class="savestate" id="saveState3"></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
